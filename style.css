@@ -1,5 +1,8 @@
 body{
-   background-color: #12191f
+   background-color: #1b1f27;
+  color: white
+   
+  
 }
 
 .ml11 {
@@ -41,9 +44,56 @@ body{
 .P1 {
     width: 200px;
     height: 200px;
-    background-color: #3498db;
+    background-color: #ffffff;
     position: relative;
     cursor: pointer;
     transition: transform 0.3s ease;
     overflow: hidden;
+}
+h2{
+  color: white
+}
+h1{
+  color: white
+}
+h3{
+  color: white
+}
+p{
+  color: white
+}
+
+.P1:hover div.p1t{
+  opacity: 1;
+}
+
+  
+.P1{
+  content:" ";
+  background-image: url('BinarySearchGame.png');
+  width: 42vw;
+  height: 26vw;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto;
+}
+.P1t{
+    position: absolute;
+    /* Center on the screen (help from ChatGPT) */  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  /* End centering code */
+    width: 42vw;
+    height: 26vw;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #ededed;
+    padding: 10px 20px;
+  /* Help from Hinkle */
+  box-sizing: border-box;
+   
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
