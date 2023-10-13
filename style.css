@@ -63,13 +63,13 @@ p{
   color: white
 }
 
-.P1:hover div.p1t{
+.java:hover div.p1t{
   opacity: 1;
 }
 
   
-.P1{
-  content:" ";
+.java{
+  content:"";
   background-image: url('BinarySearchGame.png');
   width: 42vw;
   height: 26vw;
@@ -79,7 +79,7 @@ p{
   position: relative;
   margin: auto;
 }
-.P1t{
+.p1t{
     position: absolute;
     /* Center on the screen (help from ChatGPT) */  
     top: 50%;
@@ -89,7 +89,7 @@ p{
     width: 42vw;
     height: 26vw;
     background-color: rgba(255, 255, 255, 0.9);
-    color: #ededed;
+    color: #c02a48;
     padding: 10px 20px;
   /* Help from Hinkle */
   box-sizing: border-box;
